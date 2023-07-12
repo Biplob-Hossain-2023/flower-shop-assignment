@@ -1,30 +1,34 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
 }
+
 /* common css */
-.btn{
+.btn {
     border-radius: 8px;
-    padding:15px 30px;
+    padding: 15px 30px;
     background: #E55473;
     display: inline-block;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    
+    border: none;
+
 }
-.section-title{
+
+.section-title {
     text-align: center;
     color: #272727;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
 }
-.header-dicription{
+
+.header-dicription {
     text-align: center;
     color: rgba(39, 39, 39, 0.60);
     font-size: 25px;
@@ -36,138 +40,157 @@ body{
 }
 
 /* Banner Area Start */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     background-color: #E554731A;
     justify-content: space-between;
 }
-.text{
+
+.text {
     margin-top: 197px;
     margin-left: 260px;
 }
-.text-header{
+
+.text-header {
     color: #272727;
     font-size: 60px;
     line-height: normal;
     font-weight: 800;
     margin-bottom: 32px;
 }
-.text-description{
+
+.text-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 32px;
     font-weight: 400;
 }
-.flower{
+
+.flower {
     margin-top: 50px;
 }
+
 /* Our Featured Area Start */
 
-.featured-area{
-    margin: 178px 240px 0; 
+.featured-area {
+    margin: 178px 240px 0;
 }
 
-.featured-img{
+.featured-img {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 240px;  
+    margin: 0 240px;
 }
-.images{
-    margin: 24px;  
-    
+
+.images {
+    margin: 24px;
+
 }
-.img{
+
+.img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.img-title{
-   text-align: center;
-   margin-top: 32px;
-   margin-bottom: 100px;
+
+.img-title {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 100px;
 }
+
 /* Support  Area Start */
-.support-area{
+.support-area {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1140px;
     margin: 0 auto;
 }
-.support-item{
+
+.support-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 86px 100px 146px 100px;
-    
+
 }
-.support-content{
+
+.support-content {
     text-align: center;
 }
 
 /* Hot Deal Area Start */
-.hot-deal-area{
+.hot-deal-area {
     margin-top: 120px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
 }
-.deal-title{
+
+.deal-title {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.deal-text{
+
+.deal-text {
     text-align: center;
     margin-left: 150px;
 
 }
-.deal-text-title{
-color: #272727;
-font-size: 30px;
-font-weight: 800;
-line-height: normal;
-margin-bottom: 24px;
+
+.deal-text-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
 }
-span{
+
+span {
     color: #E55473;
 }
-.deal-driscription{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 32px;
+
+.deal-driscription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
 
 }
-.deal-img{
-    margin-right:200px;
+
+.deal-img {
+    margin-right: 200px;
 }
 
 /* instragram area start */
-.instragram-area{
-margin-top: 200px;
-    
+.instragram-area {
+    margin-top: 200px;
+
 }
-.instragram-content{
+
+.instragram-content {
     width: 1140px;
     margin: 0 auto;
     align-items: center;
 }
-.instragram-title{
-display: flex;
 
-    
+.instragram-title {
+    display: flex;
+
+
 }
 
-.instragram-images img{
-width: 265px;
-margin: 13px;
+.instragram-images img {
+    width: 265px;
+    margin: 13px;
 }
 
 /* Latest Area Start */
-.latest-area{
-    background-image:url(/assats/images/Rectangle\ 9.png);
+.latest-area {
+    background-image: url(/assats/images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1140px;
@@ -175,20 +198,22 @@ margin: 13px;
     background-position: center;
     margin-top: 125px;
     padding-bottom: 120px;
-    
-    
+
+
 }
-.latest-item{
-    
-}
-.padding-top{
+
+.latest-item {}
+
+.padding-top {
     padding-top: 120px;
 }
-.input-area{
+
+.input-area {
     margin-top: 30px;
     text-align: center;
 }
-input[type=text]{
+
+input[type=text] {
     width: 50%;
     padding: 18px 30px;
     border: none;
@@ -198,30 +223,36 @@ input[type=text]{
     display: inline-block;
 
 }
-.margin-right{
-   margin-left: 20px; 
+
+.margin-right {
+    margin-left: 20px;
 }
+
 /* Footer Area Start */
-.footer-area{
+.footer-area {
     margin-top: 120px;
     background-color: #272727;
 }
-.footer-text{
+
+.footer-text {
     text-align: center;
     padding-top: 120px;
 }
-.footer-header{
+
+.footer-header {
     color: #fff;
     font-size: 48px;
     font-weight: 800;
     padding-bottom: 25px;
 }
-.footer-discribtion{
+
+.footer-discribtion {
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
 }
-footer p{
+
+footer p {
     color: rgba(255, 255, 255, 0.40);
     font-size: 10px;
     font-weight: 400;
